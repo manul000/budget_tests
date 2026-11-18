@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "BudgetApi.Controllers.BudgetController",
+    "Method": "Calculate",
+    "RelativePath": "api/budget/calculate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BudgetApi.Models.BudgetRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

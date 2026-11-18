@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="dcf16a1e-723c-45e7-98fb-c759f9ab3982" name="@Egors-MacBook-Pro 2026-10-23 13:20:29" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-23T13:20:29.4730500+03:00" queuing="2026-10-23T13:20:29.4730500+03:00" start="2026-10-23T13:20:28.6545570+03:00" finish="2026-10-23T13:20:29.4766440+03:00" />
+  <TestSettings name="default" id="4431e6e4-80df-4e64-8b8b-f9e4104788c3">
+    <Deployment runDeploymentRoot="_Egors-MacBook-Pro_2026-10-23_13_20_29" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="98a3ea29-65c9-4c0c-892d-c9597ea33c17" testId="333129d8-946b-38cf-57c0-708516a3ccbf" testName="BudgetApi.Tests.BudgetControllerTests.Calculate_ValidInput_ReturnsOkAndExpectedMoney(daily: &quot;100.50&quot;, days: 3, insurance: True, expected: &quot;316.58&quot;)" computerName="Egors-MacBook-Pro" duration="00:00:00.0229672" startTime="2026-10-23T13:20:29.2906070+03:00" endTime="2026-10-23T13:20:29.2906180+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98a3ea29-65c9-4c0c-892d-c9597ea33c17" />
+    <UnitTestResult executionId="1ceb5929-f6f1-4d32-93ca-b0ce63527204" testId="3ba7af10-8a0c-c0a0-b34a-b63cd962f0c1" testName="BudgetApi.Tests.BudgetControllerTests.Calculate_ValidInput_ReturnsOkAndExpectedMoney(daily: &quot;100&quot;, days: 5, insurance: False, expected: &quot;500&quot;)" computerName="Egors-MacBook-Pro" duration="00:00:00.0000049" startTime="2026-10-23T13:20:29.2957680+03:00" endTime="2026-10-23T13:20:29.2957680+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1ceb5929-f6f1-4d32-93ca-b0ce63527204" />
+    <UnitTestResult executionId="38263fd8-08d1-41c6-ad9f-e322bdf47370" testId="8074a360-4670-69b5-469d-ede66f7f86f9" testName="BudgetApi.Tests.BudgetControllerTests.Calculate_ValidInput_ReturnsOkAndExpectedMoney(daily: &quot;100.50&quot;, days: 3, insurance: False, expected: &quot;301.50&quot;)" computerName="Egors-MacBook-Pro" duration="00:00:00.0000056" startTime="2026-10-23T13:20:29.2956080+03:00" endTime="2026-10-23T13:20:29.2956080+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38263fd8-08d1-41c6-ad9f-e322bdf47370" />
+    <UnitTestResult executionId="099d3659-9bac-474d-8348-d402bb1f908c" testId="80ddecde-eef8-880b-f48b-bd842c093b7f" testName="BudgetApi.Tests.BudgetControllerTests.Calculate_ValidInput_ReturnsOkAndExpectedMoney(daily: &quot;0&quot;, days: 5, insurance: False, expected: &quot;0&quot;)" computerName="Egors-MacBook-Pro" duration="00:00:00.0000047" startTime="2026-10-23T13:20:29.2960990+03:00" endTime="2026-10-23T13:20:29.2960990+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="099d3659-9bac-474d-8348-d402bb1f908c" />
+    <UnitTestResult executionId="b600cd7a-089a-44a4-b4aa-f4c457a6ac66" testId="e0917aed-a932-112e-2255-9da6dd63a905" testName="BudgetApi.Tests.BudgetControllerTests.Calculate_ValidInput_ReturnsOkAndExpectedMoney(daily: &quot;0&quot;, days: 5, insurance: True, expected: &quot;0&quot;)" computerName="Egors-MacBook-Pro" duration="00:00:00.0000056" startTime="2026-10-23T13:20:29.2959390+03:00" endTime="2026-10-23T13:20:29.2959390+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b600cd7a-089a-44a4-b4aa-f4c457a6ac66" />
+    <UnitTestResult executionId="a34107be-7f7c-4f70-b04f-6239f00869ce" testId="1ef4d58a-ee28-d44d-1197-635dfd9b8a12" testName="BudgetApi.Tests.BudgetControllerTests.Calculate_NonPositiveDays_ReturnsBadRequest(days: -1)" computerName="Egors-MacBook-Pro" duration="00:00:00.0000883" startTime="2026-10-23T13:20:29.2964270+03:00" endTime="2026-10-23T13:20:29.2964270+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a34107be-7f7c-4f70-b04f-6239f00869ce" />
+    <UnitTestResult executionId="0e05018f-9839-4670-bf33-7366b1b19c05" testId="2b82e988-09b6-be29-faf2-053044b808c0" testName="BudgetApi.Tests.BudgetControllerTests.Calculate_NonPositiveDays_ReturnsBadRequest(days: 0)" computerName="Egors-MacBook-Pro" duration="00:00:00.0016312" startTime="2026-10-23T13:20:29.2962770+03:00" endTime="2026-10-23T13:20:29.2962770+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e05018f-9839-4670-bf33-7366b1b19c05" />
+    <UnitTestResult executionId="44157d64-d94b-4ead-9e0b-df3dba7dcd8d" testId="b55b9fab-aaa1-fe1a-8f75-b6a38c94f3c7" testName="BudgetApi.Tests.BudgetControllerTests.Calculate_ValidInput_ReturnsOkAndExpectedMoney(daily: &quot;100&quot;, days: 5, insurance: True, expected: &quot;525&quot;)" computerName="Egors-MacBook-Pro" duration="00:00:00.0000144" startTime="2026-10-23T13:20:29.2954460+03:00" endTime="2026-10-23T13:20:29.2954460+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="44157d64-d94b-4ead-9e0b-df3dba7dcd8d" />
+    <UnitTestResult executionId="33b5324a-bb8f-4e3c-af4a-ddb6a572521b" testId="eaf9a6d0-26eb-6fee-abf1-d9d0dcf530b9" testName="BudgetApi.Tests.BudgetControllerTests.Calculate_ValidInput_ReturnsOkAndExpectedMoney(daily: &quot;0.10&quot;, days: 1, insurance: True, expected: &quot;0.11&quot;)" computerName="Egors-MacBook-Pro" duration="00:00:00.0002684" startTime="2026-10-23T13:20:29.2950990+03:00" endTime="2026-10-23T13:20:29.2950990+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="33b5324a-bb8f-4e3c-af4a-ddb6a572521b" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="BudgetApi.Tests.BudgetControllerTests.Calculate_NonPositiveDays_ReturnsBadRequest(days: -1)" storage="/users/egorgladkikh/downloads/task/second-task/08-budget-tests/budgetapi.tests/bin/debug/net9.0/budgetapi.tests.dll" id="1ef4d58a-ee28-d44d-1197-635dfd9b8a12">
+      <Execution id="a34107be-7f7c-4f70-b04f-6239f00869ce" />
+      <TestMethod codeBase="/Users/egorgladkikh/Downloads/Task/second-task/08-budget-tests/BudgetApi.Tests/bin/Debug/net9.0/BudgetApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BudgetApi.Tests.BudgetControllerTests" name="Calculate_NonPositiveDays_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="BudgetApi.Tests.BudgetControllerTests.Calculate_ValidInput_ReturnsOkAndExpectedMoney(daily: &quot;0&quot;, days: 5, insurance: True, expected: &quot;0&quot;)" storage="/users/egorgladkikh/downloads/task/second-task/08-budget-tests/budgetapi.tests/bin/debug/net9.0/budgetapi.tests.dll" id="e0917aed-a932-112e-2255-9da6dd63a905">
+      <Execution id="b600cd7a-089a-44a4-b4aa-f4c457a6ac66" />
+      <TestMethod codeBase="/Users/egorgladkikh/Downloads/Task/second-task/08-budget-tests/BudgetApi.Tests/bin/Debug/net9.0/BudgetApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BudgetApi.Tests.BudgetControllerTests" name="Calculate_ValidInput_ReturnsOkAndExpectedMoney" />
+    </UnitTest>
+    <UnitTest name="BudgetApi.Tests.BudgetControllerTests.Calculate_NonPositiveDays_ReturnsBadRequest(days: 0)" storage="/users/egorgladkikh/downloads/task/second-task/08-budget-tests/budgetapi.tests/bin/debug/net9.0/budgetapi.tests.dll" id="2b82e988-09b6-be29-faf2-053044b808c0">
+      <Execution id="0e05018f-9839-4670-bf33-7366b1b19c05" />
+      <TestMethod codeBase="/Users/egorgladkikh/Downloads/Task/second-task/08-budget-tests/BudgetApi.Tests/bin/Debug/net9.0/BudgetApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BudgetApi.Tests.BudgetControllerTests" name="Calculate_NonPositiveDays_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="BudgetApi.Tests.BudgetControllerTests.Calculate_ValidInput_ReturnsOkAndExpectedMoney(daily: &quot;100&quot;, days: 5, insurance: False, expected: &quot;500&quot;)" storage="/users/egorgladkikh/downloads/task/second-task/08-budget-tests/budgetapi.tests/bin/debug/net9.0/budgetapi.tests.dll" id="3ba7af10-8a0c-c0a0-b34a-b63cd962f0c1">
+      <Execution id="1ceb5929-f6f1-4d32-93ca-b0ce63527204" />
+      <TestMethod codeBase="/Users/egorgladkikh/Downloads/Task/second-task/08-budget-tests/BudgetApi.Tests/bin/Debug/net9.0/BudgetApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BudgetApi.Tests.BudgetControllerTests" name="Calculate_ValidInput_ReturnsOkAndExpectedMoney" />
+    </UnitTest>
+    <UnitTest name="BudgetApi.Tests.BudgetControllerTests.Calculate_ValidInput_ReturnsOkAndExpectedMoney(daily: &quot;0&quot;, days: 5, insurance: False, expected: &quot;0&quot;)" storage="/users/egorgladkikh/downloads/task/second-task/08-budget-tests/budgetapi.tests/bin/debug/net9.0/budgetapi.tests.dll" id="80ddecde-eef8-880b-f48b-bd842c093b7f">
+      <Execution id="099d3659-9bac-474d-8348-d402bb1f908c" />
+      <TestMethod codeBase="/Users/egorgladkikh/Downloads/Task/second-task/08-budget-tests/BudgetApi.Tests/bin/Debug/net9.0/BudgetApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BudgetApi.Tests.BudgetControllerTests" name="Calculate_ValidInput_ReturnsOkAndExpectedMoney" />
+    </UnitTest>
+    <UnitTest name="BudgetApi.Tests.BudgetControllerTests.Calculate_ValidInput_ReturnsOkAndExpectedMoney(daily: &quot;100&quot;, days: 5, insurance: True, expected: &quot;525&quot;)" storage="/users/egorgladkikh/downloads/task/second-task/08-budget-tests/budgetapi.tests/bin/debug/net9.0/budgetapi.tests.dll" id="b55b9fab-aaa1-fe1a-8f75-b6a38c94f3c7">
+      <Execution id="44157d64-d94b-4ead-9e0b-df3dba7dcd8d" />
+      <TestMethod codeBase="/Users/egorgladkikh/Downloads/Task/second-task/08-budget-tests/BudgetApi.Tests/bin/Debug/net9.0/BudgetApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BudgetApi.Tests.BudgetControllerTests" name="Calculate_ValidInput_ReturnsOkAndExpectedMoney" />
+    </UnitTest>
+    <UnitTest name="BudgetApi.Tests.BudgetControllerTests.Calculate_ValidInput_ReturnsOkAndExpectedMoney(daily: &quot;100.50&quot;, days: 3, insurance: False, expected: &quot;301.50&quot;)" storage="/users/egorgladkikh/downloads/task/second-task/08-budget-tests/budgetapi.tests/bin/debug/net9.0/budgetapi.tests.dll" id="8074a360-4670-69b5-469d-ede66f7f86f9">
+      <Execution id="38263fd8-08d1-41c6-ad9f-e322bdf47370" />
+      <TestMethod codeBase="/Users/egorgladkikh/Downloads/Task/second-task/08-budget-tests/BudgetApi.Tests/bin/Debug/net9.0/BudgetApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BudgetApi.Tests.BudgetControllerTests" name="Calculate_ValidInput_ReturnsOkAndExpectedMoney" />
+    </UnitTest>
+    <UnitTest name="BudgetApi.Tests.BudgetControllerTests.Calculate_ValidInput_ReturnsOkAndExpectedMoney(daily: &quot;100.50&quot;, days: 3, insurance: True, expected: &quot;316.58&quot;)" storage="/users/egorgladkikh/downloads/task/second-task/08-budget-tests/budgetapi.tests/bin/debug/net9.0/budgetapi.tests.dll" id="333129d8-946b-38cf-57c0-708516a3ccbf">
+      <Execution id="98a3ea29-65c9-4c0c-892d-c9597ea33c17" />
+      <TestMethod codeBase="/Users/egorgladkikh/Downloads/Task/second-task/08-budget-tests/BudgetApi.Tests/bin/Debug/net9.0/BudgetApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BudgetApi.Tests.BudgetControllerTests" name="Calculate_ValidInput_ReturnsOkAndExpectedMoney" />
+    </UnitTest>
+    <UnitTest name="BudgetApi.Tests.BudgetControllerTests.Calculate_ValidInput_ReturnsOkAndExpectedMoney(daily: &quot;0.10&quot;, days: 1, insurance: True, expected: &quot;0.11&quot;)" storage="/users/egorgladkikh/downloads/task/second-task/08-budget-tests/budgetapi.tests/bin/debug/net9.0/budgetapi.tests.dll" id="eaf9a6d0-26eb-6fee-abf1-d9d0dcf530b9">
+      <Execution id="33b5324a-bb8f-4e3c-af4a-ddb6a572521b" />
+      <TestMethod codeBase="/Users/egorgladkikh/Downloads/Task/second-task/08-budget-tests/BudgetApi.Tests/bin/Debug/net9.0/BudgetApi.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="BudgetApi.Tests.BudgetControllerTests" name="Calculate_ValidInput_ReturnsOkAndExpectedMoney" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="333129d8-946b-38cf-57c0-708516a3ccbf" executionId="98a3ea29-65c9-4c0c-892d-c9597ea33c17" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3ba7af10-8a0c-c0a0-b34a-b63cd962f0c1" executionId="1ceb5929-f6f1-4d32-93ca-b0ce63527204" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8074a360-4670-69b5-469d-ede66f7f86f9" executionId="38263fd8-08d1-41c6-ad9f-e322bdf47370" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="80ddecde-eef8-880b-f48b-bd842c093b7f" executionId="099d3659-9bac-474d-8348-d402bb1f908c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0917aed-a932-112e-2255-9da6dd63a905" executionId="b600cd7a-089a-44a4-b4aa-f4c457a6ac66" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1ef4d58a-ee28-d44d-1197-635dfd9b8a12" executionId="a34107be-7f7c-4f70-b04f-6239f00869ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b82e988-09b6-be29-faf2-053044b808c0" executionId="0e05018f-9839-4670-bf33-7366b1b19c05" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b55b9fab-aaa1-fe1a-8f75-b6a38c94f3c7" executionId="44157d64-d94b-4ead-9e0b-df3dba7dcd8d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eaf9a6d0-26eb-6fee-abf1-d9d0dcf530b9" executionId="33b5324a-bb8f-4e3c-af4a-ddb6a572521b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="9" executed="9" passed="9" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 9.0.8)
+[xUnit.net 00:00:00.03]   Discovering: BudgetApi.Tests
+[xUnit.net 00:00:00.05]   Discovered:  BudgetApi.Tests
+[xUnit.net 00:00:00.06]   Starting:    BudgetApi.Tests
+[xUnit.net 00:00:00.11]   Finished:    BudgetApi.Tests
+</StdOut>
+    </Output>
+    <CollectorDataEntries>
+      <Collector agentName="Egors-MacBook-Pro" uri="datacollector://microsoft/CoverletCodeCoverage/1.0" collectorDisplayName="XPlat code coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="Egors-MacBook-Pro/coverage.cobertura.xml"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>

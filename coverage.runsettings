@@ -1,0 +1,6 @@
+<RunSettings>
+    <DataCollectionRunSettings><DataCollectors><DataCollector friendlyName="XPlat Code Coverage"><Configuration>
+        <Format>cobertura</Format><Include>[BudgetApi]BudgetApi.Controllers.BudgetController</Include>
+        <ExcludeByAttribute>CompilerGeneratedAttribute,GeneratedCodeAttribute</ExcludeByAttribute>
+    </Configuration></DataCollector></DataCollectors></DataCollectionRunSettings>
+</RunSettings>

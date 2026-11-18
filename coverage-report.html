@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ru">
+<meta charset="UTF-8">
+<title>Покрытие BudgetController</title>
+<style>body {
+    font: 17px system-ui;
+    max-width: 850px;
+    margin: 40px auto;
+    line-height: 1.7
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left
+}
+
+.ok {
+    color: #18773b
+}</style>
+<h1>Калькулятор бюджета — проверка тестов</h1>
+<p>Дата проверки: 23 октября 2026 года.</p>
+<table>
+    <tr>
+        <th>Проверка</th>
+        <th>Результат</th>
+    </tr>
+    <tr>
+        <td>xUnit</td>
+        <td class="ok">9 пройдено, 0 провалов, 0 пропущено</td>
+    </tr>
+    <tr>
+        <td>Строки Calculate</td>
+        <td class="ok">100%</td>
+    </tr>
+    <tr>
+        <td>Ветви Calculate</td>
+        <td class="ok">100%</td>
+    </tr>
+    <tr>
+        <td>Исходная ошибка total *= 5</td>
+        <td>3 теста воспроизводимо падают</td>
+    </tr>
+    <tr>
+        <td>Исправление total *= 1.05m</td>
+        <td class="ok">Все тесты проходят</td>
+    </tr>
+</table>
+<p>Проверены: расчёт без страховки, страховка 5%, нулевая стоимость с обоими флагами, дробная цена, округление до
+    копеек, отрицательные и нулевые дни.</p>
+<p>Покрытие ограничено методом расчёта контроллера. Отдельно выполнена HTTP-проверка настоящего ASP.NET-приложения.</p>
+<p><a href="coverage.cobertura.xml">Исходный XML Coverlet</a></p></html>
